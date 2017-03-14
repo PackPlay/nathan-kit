@@ -1,0 +1,10 @@
+framework module NathanFramework {
+  umbrella header "NathanFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module NathanFramework.Swift {
+    header "NathanFramework-Swift.h"
+}
