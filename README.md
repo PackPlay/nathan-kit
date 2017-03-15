@@ -9,7 +9,7 @@ class ViewController:NathanController{
 ```
 to add data
 
-#Example:
+Example:
 
 ```
 imgarry = [user_images(label:"",image:"")]
