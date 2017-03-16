@@ -10,8 +10,8 @@ import UIKit
 
 public struct user_images {
     let label:String?
-    let image:String?
-    public init(label:String?,image:String?){
+    let image:UIImage?
+    public init(label:String?,image:UIImage?){
         self.label = label
         self.image = image
     }

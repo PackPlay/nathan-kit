@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/NathanFramework-Swift.h</key>
 		<data>
-		61dWTwJA+6Xqh+OmaekTvrnreO4=
+		b62FgQXUecbx6V5EIJ5RmBZMj5A=
 		</data>
 		<key>Headers/NathanFramework.h</key>
 		<data>
@@ -14,15 +14,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		ZqKuGuXYtuaYz7uCIK11KuHCgeY=
-		</data>
-		<key>Modules/NathanFramework.swiftmodule/i386.swiftdoc</key>
-		<data>
-		aQejB8xiCPiUH8TAd77r8F0vEXE=
-		</data>
-		<key>Modules/NathanFramework.swiftmodule/i386.swiftmodule</key>
-		<data>
-		buQrbmWSrrOs/Rsz3YZixSDCs2g=
+		QG2QsPR63EhlQFrzgpsuDSqjfEM=
 		</data>
 		<key>Modules/NathanFramework.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -30,7 +22,7 @@
 		</data>
 		<key>Modules/NathanFramework.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		S+fPaQKF8mzHuyFJA9AzbtB5eks=
+		EHSbtXjf9/DvcOxVbObFK+SOvfo=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -43,11 +35,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			61dWTwJA+6Xqh+OmaekTvrnreO4=
+			b62FgQXUecbx6V5EIJ5RmBZMj5A=
 			</data>
 			<key>hash2</key>
 			<data>
-			XCpV1j61AU/+LPUySCcFzq7lJUHEZYESkFMh1UkIcQ8=
+			EjFvUcIPcN8u7Yw1hq/o58SstZsEnnq26ELQirCjZ4U=
 			</data>
 		</dict>
 		<key>Headers/NathanFramework.h</key>
@@ -59,28 +51,6 @@
 			<key>hash2</key>
 			<data>
 			ZIq2nES5RzL+etLrGn2l3fS9cRhoqUQP2kDBjSvIHgI=
-			</data>
-		</dict>
-		<key>Modules/NathanFramework.swiftmodule/i386.swiftdoc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			aQejB8xiCPiUH8TAd77r8F0vEXE=
-			</data>
-			<key>hash2</key>
-			<data>
-			cLvWOY04jbJ5xhi1sCZYrWLEeuoVsSRmRdQba/wh8BY=
-			</data>
-		</dict>
-		<key>Modules/NathanFramework.swiftmodule/i386.swiftmodule</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			buQrbmWSrrOs/Rsz3YZixSDCs2g=
-			</data>
-			<key>hash2</key>
-			<data>
-			7xDlEtJP8i9gngRDaUjssYvJAySaRQi1vIB49oulhl0=
 			</data>
 		</dict>
 		<key>Modules/NathanFramework.swiftmodule/x86_64.swiftdoc</key>
@@ -98,11 +68,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			S+fPaQKF8mzHuyFJA9AzbtB5eks=
+			EHSbtXjf9/DvcOxVbObFK+SOvfo=
 			</data>
 			<key>hash2</key>
 			<data>
-			Q1NhyF1Tpb5nplMaH4qi4Sl5h5+Mom2q3USOdr95j5M=
+			Cg6G0LEelOWUYor/hwvZEJiovn/sqcriL6um7N2CIyY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -134,6 +104,11 @@
 			<true/>
 			<key>weight</key>
 			<real>1100</real>
+		</dict>
+		<key>^Base\.lproj/</key>
+		<dict>
+			<key>weight</key>
+			<real>1010</real>
 		</dict>
 		<key>^version.plist$</key>
 		<true/>
@@ -179,6 +154,11 @@
 			<true/>
 			<key>weight</key>
 			<real>1100</real>
+		</dict>
+		<key>^Base\.lproj/</key>
+		<dict>
+			<key>weight</key>
+			<real>1010</real>
 		</dict>
 		<key>^Info\.plist$</key>
 		<dict>

@@ -21,7 +21,7 @@ open class NathanController: UIViewController,UICollectionViewDelegate,UICollect
         button.backgroundColor = .yellow
         return button
     }()
-    public var imgarry:[user_images] = [user_images(label:nil,image:"earth"),user_images(label:nil,image:"silp"),user_images(label:nil,image:"earth2"),user_images(label:nil,image:"earth3")]
+    public var imgarry:[user_images] = [user_images(label:"Sample1",image: UIImage(named:"earth")),user_images(label:"Sample2",image: UIImage(named:"earth")),user_images(label:"Sample3",image: UIImage(named:"earth")),user_images(label:"Sample4",image: UIImage(named:"earth"))]
     let imageview:UIImageView = {
         let iv = UIImageView()
         iv.translatesAutoresizingMaskIntoConstraints = false
@@ -49,6 +49,7 @@ open class NathanController: UIViewController,UICollectionViewDelegate,UICollect
     }()
     override open func viewDidLoad() {
         super.viewDidLoad()
+        imageview.image = imgarry[0].image
         view.addSubview(imageview)
         view.addSubview(collectionview)
        // view.addSubview(button)
@@ -67,8 +68,7 @@ open class NathanController: UIViewController,UICollectionViewDelegate,UICollect
     open func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         self.view.layoutIfNeeded()
         self.collectionview.scrollToItem(at: indexPath, at: UICollectionViewScrollPosition.centeredHorizontally, animated: true)
-        imageview.image = UIImage(named: imgarry[indexPath.item].image!)
-        
+        imageview.image = imgarry[indexPath.item].image
     }
     override open func viewDidAppear(_ animated: Bool) {
         let indexpath = IndexPath(item: 0, section: 0)
@@ -80,7 +80,7 @@ open class NathanController: UIViewController,UICollectionViewDelegate,UICollect
     open func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cv = collectionview.dequeueReusableCell(withReuseIdentifier: "cellid", for: indexPath) as! collectionviewcell
         cv.backgroundColor = .clear
-        cv.imageview.image = UIImage(named: imgarry[indexPath.item].image!)
+        cv.imageview.image = imgarry[indexPath.item].image
         cv.title.text = imgarry[indexPath.item].label
         if hidebutton {
             cv.title.isHidden = true

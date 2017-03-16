@@ -129,7 +129,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @class NSCoder;
 
 SWIFT_CLASS("_TtC15NathanFramework16NathanController")
-@interface NathanController : UIViewController <UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout>
+@interface NathanController : UIViewController <UIScrollViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout, UICollectionViewDelegate>
 - (void)viewDidLoad;
 - (void)collectionView:(UICollectionView * _Nonnull)collectionView didSelectItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
 - (void)viewDidAppear:(BOOL)animated;
