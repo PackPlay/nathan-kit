@@ -12,5 +12,5 @@ to add data
 Example:
 
 ```
-imgarry = [user_images(label:"",image:"")]
+imgarry = [user_images(label:"",UIImage(named:""))]
 ```
